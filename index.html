@@ -1,11 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Invitación de Graduación | Bachillerato | Colegio Crica A. C.</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="shortcut icon" href="img/Icono.png" type="image/png">
 </head>
 <body>
-    
+  <header>
+    <div class="container-icon">
+      <img class="icon" src="img/Icono.png" alt="">
+    </div>
+  </header>
+  <div class="invitation-card">
+    <!-- 🎓 Imagen principal -->
+    <div class="header-image">
+      <h1>
+        ¡Felicidades!
+      </h1>
+      <div>
+        <span>GENERACIÓN</span>
+        <span>2023 - 2025</span>
+      </div>
+      <img src="img/Hero.jpg" alt="Foto de grupo" />
+    </div>
+
+
+    <!-- 📅 Detalles del evento -->
+    <div class="section">
+      <h2>GUARDA <br> LA FECHA</h2>
+      <strong class="fecha">27.06.25</strong>
+      <p>Les extendemos una cordial invitación a la Ceremonia de Graduación de 3ro de Bachillerato, quienes culminan una valiosa etapa de su formación académica y personal.</p>
+    </div>
+
+    <img class="birretes-img" src="img/Birretes.jpg" alt="">
+
+    <!-- ⏳ Cuenta regresiva -->
+    <div class="section countdown">
+      <h2>FALTAN:</h2>
+      <div id="countdown">
+        <span id="days">--</span>
+        <span id="hours">--</span>
+        <span id="minutes">--</span>
+        <span id="seconds">--</span>
+      </div>
+      <div class="countdown-words">
+        <strong>DÍAS</strong>
+        <strong class="word-hours">HORAS</strong>
+        <strong class="word-minutes">MINUTOS</strong>
+        <strong class="word-seconds">SEGUNDOS</strong>
+      </div>
+    </div>
+
+    <!-- 📌 Ubicación -->
+    <div class="section ubication">
+      <p>Ha sido un privilegio acompañarlos en este camino. Ahora, juntos, celebremos este gran logro que también es suyo.</p>
+      <img class="birrete-img" src="img/BirreteIcon.png" alt="">
+      <h2>CEREMONIA</h2>
+      <strong>11:00 AM</strong>
+      <span>Auditorio de Fraternidad Ágape A. C.</span>
+      <a href="https://www.google.com/maps/place/Fraternidad+%C3%81gape+A.C./@17.5096899,-99.5733227,45050m/data=!3m1!1e3!4m6!3m5!1s0x85cbeb9380c57e3f:0xd27c22a3effd317d!8m2!3d17.5189516!4d-99.4813009!16s%2Fg%2F11b725m224?hl=es&entry=ttu&g_ep=EgoyMDI1MDYxMC4xIKXMDSoASAFQAw%3D%3D">VER UBICACIÓN</a>
+      <!-- Agrega más si hay recepción -->
+    </div>
+
+    <!-- 👔 Vestimenta -->
+    <div class="section clothes">
+      <img class="img-clothes" src="img/clothes.png" alt="">
+      <h2>VESTIMENTA</h2>
+      <strong>Formal</strong>
+    </div>
+
+    <!-- 📸 Despedida -->
+    <div class="section goodbye">
+      <span>"Un hijo graduado es el reflejo de una familia que ha crecido unida."</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
