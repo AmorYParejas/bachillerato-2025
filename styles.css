@@ -195,6 +195,32 @@ a:hover {
   color: #252839;
   font-weight: bolder;
   font-size: 20px;
-  padding: 50px 20px;
+  padding: 30px 20px;
 }
 
+.groupContainer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 40px;
+}
+
+.groupContainer img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: 0% 20%;
+}
+
+.groupContainer strong{
+  font-size: 40px;
+}
+
+.goodbye strong{
+  display: block;
+  margin-top: 10px;
+  font-style: italic;
+  font-size: 20px;
+}
